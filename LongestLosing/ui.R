@@ -15,15 +15,7 @@
 # Contact phill at starkingdom dot co dot uk with questions or suggestions.
 
 shinyUI(fluidPage(
-  
-  withTags({
-    
-            img(src="http://starkingdom.co.uk/content/images/2014/Feb/starkingdomcombo2.jpg", width="374", height="144")
-  }),
-        
-        
-        
-  
+
   titlePanel("Longest Losing Sequence"),
   
   sidebarLayout(
