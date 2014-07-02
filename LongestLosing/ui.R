@@ -29,11 +29,6 @@ shinyUI(fluidPage(
                    step = NA
                    ),
       
-  #    textInput("runs", 
-   #             label = "Number of Runs or Events:",
-    #            value = 1000
-   #   ),
-   #   
       sliderInput("sr",
                   "Win Strike Rate %:",
                   min = 1,
